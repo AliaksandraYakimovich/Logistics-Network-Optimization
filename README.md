@@ -15,7 +15,7 @@ The project addresses the challenge of optimizing the assignment of **1,250 reta
 ## Dashboard Preview
 | Original Network  | Optimized Network |
 | :---: | :---: |
-| ![Before](dashboard/before.png) | ![After](dashboard/after.png) |
+| ![Before](dashboard_before.png) | ![After](dashboard_after.png) |
 
 ## How the Algorithm Works
 The **Balanced Swap Heuristic** identifies pairs of stores assigned to different hubs. If swapping their assignments reduces the total distance to their respective hubs, the swap is executed. This ensures that the total number of stores per hub remains constant, preventing operational bottlenecks.
