@@ -13,9 +13,9 @@ The project addresses the challenge of optimizing the assignment of **1,250 reta
 * **Automation:** Replaced manual reassignment processes with a scalable Python-based **Balanced Swap Algorithm**.
 
 ## Dashboard Preview
-| ![Before](<img width="1404" height="791" alt="dashboard_before" src="https://github.com/user-attachments/assets/39be42ce-8027-43f4-a5dd-6b4d883e9d5a" />
-) | ![After](<img width="1404" height="788" alt="dashboard_after" src="https://github.com/user-attachments/assets/0d647353-8630-4651-91ca-bab9999fe4d8" />
-) |
+| Original Network  | Optimized Network |
+| :---: | :---: |
+| ![Before](dashboard/before.png) | ![After](dashboard/after.png) |
 
 ## How the Algorithm Works
 The **Balanced Swap Heuristic** identifies pairs of stores assigned to different hubs. If swapping their assignments reduces the total distance to their respective hubs, the swap is executed. This ensures that the total number of stores per hub remains constant, preventing operational bottlenecks.
