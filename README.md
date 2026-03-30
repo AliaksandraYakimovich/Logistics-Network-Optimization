@@ -17,6 +17,8 @@ The project addresses the challenge of optimizing the assignment of **1,250 reta
 | :---: | :---: |
 | ![Before](dashboard/dashboard_before.png) | ![After](dashboard/dashboard_after.png) |
 
+> **Note on Visualization:** You may notice negative values in some "Savings" columns or charts. This represents "Value at Risk" — specific routes where the current assignment is sub-optimal compared to the proposed model. In the "After" state, these are neutralized by the algorithm to ensure positive net impact across the entire network.
+
 ## How the Algorithm Works
 The **Balanced Swap Heuristic** identifies pairs of stores assigned to different hubs. If swapping their assignments reduces the total distance to their respective hubs, the swap is executed. This ensures that the total number of stores per hub remains constant, preventing operational bottlenecks.
 
